@@ -1,3 +1,0 @@
-# project
-this is php framework by self 
-welcome use this framework , Waiting update...
