@@ -13,6 +13,7 @@ class Home extends Base
 {
     public function test()
     {
+        var_dump($this->getConfig('db'));
         $view = new View();
         $view->data = [];
         $view->render('home.phtml');

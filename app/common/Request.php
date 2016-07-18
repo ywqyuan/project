@@ -9,6 +9,7 @@ namespace project\common;
 trait Request{
 
     use Loggers;
+    use Common;
 
     public function getParam($param , $default = null)
     {
