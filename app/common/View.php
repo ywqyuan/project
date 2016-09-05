@@ -13,6 +13,7 @@ class View
     private $data = []; //模板数据
     private $_view;
     private $cache = false;
+
     public function __construct()
     {
         if(!isset($this->_view)){
